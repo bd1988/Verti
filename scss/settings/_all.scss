@@ -1,0 +1,21 @@
+$columns: 12;
+body {
+    background-color: $backgorund-color;
+}
+
+@media screen and (max-width: 735px) {
+
+    $column-base-width: 100% / $columns;
+    
+    .container {
+        margin: 0 auto;        
+    }
+
+    @for $i from 1 through $columns {
+        .col-#{$i} {
+            min-height: 1px;
+            width: $column-base-width * $i;
+            margin: 0 auto;
+        }
+    }
+}
