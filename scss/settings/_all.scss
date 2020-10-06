@@ -1,9 +1,12 @@
 $columns: 12;
 body {
-    background-color: $backgorund-color;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0));
+    background-color: $background-color;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 767px) {
 
     $column-base-width: 100% / $columns;
     
@@ -18,4 +21,24 @@ body {
             margin: 0 auto;
         }
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    $column-base-width: 98% / $columns;
+    
+    .container {
+        margin: 0 auto;        
+    }
+
+    @for $i from 1 through $columns {
+        .col-#{$i} {
+            min-height: 1px;
+            width: $column-base-width * $i;
+            max-width: 960px;
+            margin: 0 auto;
+        }
+    }
+
+    
 }

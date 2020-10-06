@@ -1,4 +1,11 @@
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 767px) {
+    
+    .nav-logo-wrapper,
+    .banner-wrapper{
+        width: 91.666%;
+        margin: 0 auto;
+    }
+    
     header {       
         position: relative;
         padding-top: 48px;
@@ -82,12 +89,13 @@
         border-bottom: 0;
     }
 
-    .banner {
+    .banner-wrapper {
         background-color: #fff;
         box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
         border-radius: 6px;
         padding: 15px;
     }
+
     .welcome-text h2 {
         font-size: 2rem;
         font-weight: 800;
@@ -99,6 +107,7 @@
         padding-top: 10px;
         font-size: 1.4rem;
         font-weight: 300;
+        color: $link-color;
         text-align: center;
     }
 
@@ -141,4 +150,123 @@
         font-family: "Font Awesome 5 Free";
     }
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .menu-burger-btn {
+        display: none;
+    }
+
+    .nav-logo-wrapper,
+    .banner-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-logo-wrapper {
+        padding: 1% 0 40px;
+    }
+
+    h1 {
+        width: 132px;
+        height: 56px;
+        font-family: $logo-font;
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 53px;
+        letter-spacing: 2.4px;
+        color: #fff;
+        text-align: center;
+        background-color: $logo-background-color;
+        border-radius: 6px;
+        padding: 3.6px 20.4px 0 14.4px;               
+    }
+
+    .menu > nav > li {
+        color: $link-color;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        border-radius: 6px;
+        vertical-align: middle;
+        margin:  0 0 11px 24px;
+        padding: 8px 16px;
+        display: inline-block;
+        transition: background-color 0.25s ease-in-out;        
+    }
+
+    .menu > nav > li:hover {    
+        cursor: pointer;
+        background-color: #fff;        
+    }
+    .menu > nav > li:first-of-type {
+        background-color: $text-color;
+        color: #fff;
+    }
+
+    .banner-wrapper {
+        background-color: #fff;
+        box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        padding: 4rem;
+    }
+
+    .welcome-text h2 {
+        font-size: 3rem;
+        font-weight: 800;        
+        color: $text-color;
+    }
+
+    .welcome-text p {
+        padding-top: 15px;
+        font-size: 2.5rem;
+        color: $link-color;
+        font-weight: 300;
+    }
+
+    .header-buttons {
+        padding: 15px 0 0;
+    }
+
+    .btn-big {
+        width: 300px;
+        height: 85px;
+        display: block;
+        text-align: center;
+        border-radius: 6px;       
+        line-height: 85px;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+
+    .btn-big:first-of-type {
+        margin-bottom: 15px;
+        background-color: $button-border-blue;
+        color: #fff;
+    }
+
+    .btn-big:first-of-type:after {
+        content: "\f0a9";
+        margin-left: 23px;
+        font-family: "Font Awesome 5 Free";     
+    }
+
+    .btn-big:nth-of-type(2) {
+        background-color: #f1f1f1;
+        background-color: rgba(0, 0, 0, 0.05);
+        color: $text-color;
+    }
+
+    .btn-big:nth-of-type(2):after {
+        content: "\f059";
+        margin-left: 32px;
+        font-family: "Font Awesome 5 Free";
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: wheat;
+    }
 }
