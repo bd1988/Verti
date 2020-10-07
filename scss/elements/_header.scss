@@ -1,11 +1,5 @@
 @media screen and (max-width: 767px) {
     
-    .nav-logo-wrapper,
-    .banner-wrapper{
-        width: 91.666%;
-        margin: 0 auto;
-    }
-    
     header {       
         position: relative;
         padding-top: 48px;
@@ -112,7 +106,7 @@
     }
 
     .header-buttons {
-        padding: 15px 0 0;
+        padding: 15px 0 0 20px;
     }
 
     .btn-big {
@@ -208,9 +202,13 @@
         background-color: #fff;
         box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
         border-radius: 6px;
-        padding: 4rem;
+        padding: 4rem 0;
     }
-
+    
+    .welcome-text {
+        padding: 0 0 0 20px;
+    }
+    
     .welcome-text h2 {
         font-size: 3rem;
         font-weight: 800;        
@@ -225,8 +223,7 @@
     }
 
     .header-buttons {
-        padding: 15px 0 0;
-        margin-left: 20px;
+        padding: 15px 0 0 0;        
     }
 
     .btn-big {
@@ -279,6 +276,10 @@
         font-size: 14.4px;                    
     }
 
+    .welcome-text {
+        padding-left: 48px;
+    }
+
     .welcome-text h2 {
         font-size: 3.5rem;        
     }
@@ -287,8 +288,22 @@
         font-size: 2.75rem;        
     }
 
+    .header-buttons {
+        position: relative;             
+    }
+
     .btn-big {
         width: 380px;    
-        font-size: 2.25rem;        
-    }  
+        font-size: 2.25rem;
+        position: absolute;        
+    }
+
+    .lets-go {
+        right: 48px;
+    }
+
+    .more-info {
+        bottom: 0px;
+        right: 48px;
+    }
 }

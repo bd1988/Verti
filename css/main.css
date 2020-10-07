@@ -25,6 +25,7 @@ body {
 @media screen and (max-width: 767px) {
   .container {
     margin: 0 auto;
+    max-width: 98%;
   }
 
   .col-1 {
@@ -100,190 +101,167 @@ body {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1281px) {
+  header {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+
   .container {
     margin: 0 auto;
+    max-width: 960px;
   }
 
-  .col-1 {
+  .col-medium-1 {
     min-height: 1px;
-    width: 8.1666666667%;
-    max-width: 960px;
+    width: 8.3333333333%;
     margin: 0 auto;
   }
 
-  .col-2 {
+  .col-medium-2 {
     min-height: 1px;
-    width: 16.3333333333%;
-    max-width: 960px;
+    width: 16.6666666667%;
     margin: 0 auto;
   }
 
-  .col-3 {
+  .col-medium-3 {
     min-height: 1px;
-    width: 24.5%;
-    max-width: 960px;
+    width: 25%;
     margin: 0 auto;
   }
 
-  .col-4 {
+  .col-medium-4 {
     min-height: 1px;
-    width: 32.6666666667%;
-    max-width: 960px;
+    width: 33.3333333333%;
     margin: 0 auto;
   }
 
-  .col-5 {
+  .col-medium-5 {
     min-height: 1px;
-    width: 40.8333333333%;
-    max-width: 960px;
+    width: 41.6666666667%;
     margin: 0 auto;
   }
 
-  .col-6 {
+  .col-medium-6 {
     min-height: 1px;
-    width: 49%;
-    max-width: 960px;
+    width: 50%;
     margin: 0 auto;
   }
 
-  .col-7 {
+  .col-medium-7 {
     min-height: 1px;
-    width: 57.1666666667%;
-    max-width: 960px;
+    width: 58.3333333333%;
     margin: 0 auto;
   }
 
-  .col-8 {
+  .col-medium-8 {
     min-height: 1px;
-    width: 65.3333333333%;
-    max-width: 960px;
+    width: 66.6666666667%;
     margin: 0 auto;
   }
 
-  .col-9 {
+  .col-medium-9 {
     min-height: 1px;
-    width: 73.5%;
-    max-width: 960px;
+    width: 75%;
     margin: 0 auto;
   }
 
-  .col-10 {
+  .col-medium-10 {
     min-height: 1px;
-    width: 81.6666666667%;
-    max-width: 960px;
+    width: 83.3333333333%;
     margin: 0 auto;
   }
 
-  .col-11 {
+  .col-medium-11 {
     min-height: 1px;
-    width: 89.8333333333%;
-    max-width: 960px;
+    width: 91.6666666667%;
     margin: 0 auto;
   }
 
-  .col-12 {
+  .col-medium-12 {
     min-height: 1px;
-    width: 98%;
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1282px) {
   .container {
     margin: 0 auto;
+    max-width: 1200px;
   }
 
-  .col-1 {
+  .col-medium-1 {
     min-height: 1px;
     width: 8.3333333333%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-2 {
+  .col-medium-2 {
     min-height: 1px;
     width: 16.6666666667%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-3 {
+  .col-medium-3 {
     min-height: 1px;
     width: 25%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-4 {
+  .col-medium-4 {
     min-height: 1px;
     width: 33.3333333333%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-5 {
+  .col-medium-5 {
     min-height: 1px;
     width: 41.6666666667%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-6 {
+  .col-medium-6 {
     min-height: 1px;
     width: 50%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-7 {
+  .col-medium-7 {
     min-height: 1px;
     width: 58.3333333333%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-8 {
+  .col-medium-8 {
     min-height: 1px;
     width: 66.6666666667%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-9 {
+  .col-medium-9 {
     min-height: 1px;
     width: 75%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-10 {
+  .col-medium-10 {
     min-height: 1px;
     width: 83.3333333333%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-11 {
+  .col-medium-11 {
     min-height: 1px;
     width: 91.6666666667%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 
-  .col-12 {
+  .col-medium-12 {
     min-height: 1px;
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 767px) {
-  .nav-logo-wrapper,
-.banner-wrapper {
-    width: 91.666%;
-    margin: 0 auto;
-  }
-
   header {
     position: relative;
     padding-top: 48px;
@@ -392,7 +370,7 @@ body {
   }
 
   .header-buttons {
-    padding: 15px 0 0;
+    padding: 15px 0 0 20px;
   }
 
   .btn-big {
@@ -487,7 +465,11 @@ body {
     background-color: #fff;
     box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
-    padding: 4rem;
+    padding: 4rem 0;
+  }
+
+  .welcome-text {
+    padding: 0 0 0 20px;
   }
 
   .welcome-text h2 {
@@ -504,8 +486,7 @@ body {
   }
 
   .header-buttons {
-    padding: 15px 0 0;
-    margin-left: 20px;
+    padding: 15px 0 0 0;
   }
 
   .btn-big {
@@ -555,6 +536,10 @@ body {
     font-size: 14.4px;
   }
 
+  .welcome-text {
+    padding-left: 48px;
+  }
+
   .welcome-text h2 {
     font-size: 3.5rem;
   }
@@ -563,9 +548,23 @@ body {
     font-size: 2.75rem;
   }
 
+  .header-buttons {
+    position: relative;
+  }
+
   .btn-big {
     width: 380px;
     font-size: 2.25rem;
+    position: absolute;
+  }
+
+  .lets-go {
+    right: 48px;
+  }
+
+  .more-info {
+    bottom: 0px;
+    right: 48px;
   }
 }
 /*# sourceMappingURL=main.css.map */

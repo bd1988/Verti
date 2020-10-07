@@ -7,35 +7,42 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-
-    $column-base-width: 100% / $columns;
     
+    $column-base-width: 100% / $columns;
+
     .container {
-        margin: 0 auto;        
+        margin: 0 auto;
+        max-width: 98%;        
     }
 
     @for $i from 1 through $columns {
         .col-#{$i} {
             min-height: 1px;
-            width: $column-base-width * $i;
+            width: $column-base-width * $i;            
             margin: 0 auto;
         }
     }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1281px) {
 
-    $column-base-width: 98% / $columns;
+    $column-base-width: 100% / $columns;
     
+    header {
+        max-width: 98%;
+        margin: 0 auto;
+    }
+
     .container {
-        margin: 0 auto;        
+        margin: 0 auto;
+        max-width: 960px;        
     }
 
     @for $i from 1 through $columns {
-        .col-#{$i} {
+        .col-medium-#{$i} {
             min-height: 1px;
-            width: $column-base-width * $i;
-            max-width: 960px;
+            width: $column-base-width * $i;            
             margin: 0 auto;
         }
     }
@@ -47,14 +54,14 @@ body {
     $column-base-width: 100% / $columns;
     
     .container {
-        margin: 0 auto;        
+        margin: 0 auto;
+        max-width: 1200px;       
     }
 
     @for $i from 1 through $columns {
-        .col-#{$i} {
+        .col-medium-#{$i} {
             min-height: 1px;
-            width: $column-base-width * $i;
-            max-width: 1200px;
+            width: $column-base-width * $i;            
             margin: 0 auto;
         }
     }
