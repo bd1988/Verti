@@ -1,6 +1,6 @@
 $columns: 12;
 body {
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.02));
     background-color: $background-color;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1281px) {
 
     $column-base-width: 98% / $columns;
     
@@ -40,5 +40,23 @@ body {
         }
     }
 
+}
+
+@media screen and (min-width: 1282px) {
+
+    $column-base-width: 100% / $columns;
     
+    .container {
+        margin: 0 auto;        
+    }
+
+    @for $i from 1 through $columns {
+        .col-#{$i} {
+            min-height: 1px;
+            width: $column-base-width * $i;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
+        
 }

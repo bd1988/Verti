@@ -152,7 +152,7 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
     .menu-burger-btn {
         display: none;
     }
@@ -168,18 +168,18 @@
     }
 
     h1 {
-        width: 132px;
+        width: 123px;
         height: 56px;
         font-family: $logo-font;
         font-size: 3rem;
         font-weight: 400;
-        line-height: 53px;
+        line-height: 52px;
         letter-spacing: 2.4px;
         color: #fff;
         text-align: center;
         background-color: $logo-background-color;
         border-radius: 6px;
-        padding: 3.6px 20.4px 0 14.4px;               
+        padding: 3.5px 20px 0 7px;               
     }
 
     .menu > nav > li {
@@ -190,7 +190,7 @@
         border-radius: 6px;
         vertical-align: middle;
         margin:  0 0 11px 24px;
-        padding: 8px 16px;
+        padding: 6px 14px;
         display: inline-block;
         transition: background-color 0.25s ease-in-out;        
     }
@@ -226,6 +226,7 @@
 
     .header-buttons {
         padding: 15px 0 0;
+        margin-left: 20px;
     }
 
     .btn-big {
@@ -265,8 +266,29 @@
 
 }
 
-@media screen and (min-width: 1200px) {
-    body {
-        background-color: wheat;
+@media screen and (min-width: 1282px) {
+    
+    h1 {
+        font-family: $logo-font;
+        font-size: 3.1rem;
+        line-height: 49px;        
+        padding: 5px 15px 0 8px;               
     }
+
+    .menu > nav > li {
+        font-size: 14.4px;                    
+    }
+
+    .welcome-text h2 {
+        font-size: 3.5rem;        
+    }
+
+    .welcome-text p {
+        font-size: 2.75rem;        
+    }
+
+    .btn-big {
+        width: 380px;    
+        font-size: 2.25rem;        
+    }  
 }
