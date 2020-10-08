@@ -1,3 +1,7 @@
+header {
+    margin-bottom: 30px;
+}
+
 @media screen and (max-width: 767px) {
     
     header {       
@@ -64,9 +68,10 @@
 
     .menu-burger-btn:checked ~ .menu {
         display: block;
-        width: 110%;
+        width: 100;
         margin: 20px 0;
-        margin-left: calc((111% - 100%)/(-2)) 
+        width: 108.6%;
+        margin-left: -4%; 
     }
 
     .menu > nav > li {
@@ -88,6 +93,7 @@
         box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
         border-radius: 6px;
         padding: 15px;
+        width: 100%;
     }
 
     .welcome-text h2 {
@@ -106,7 +112,7 @@
     }
 
     .header-buttons {
-        padding: 15px 0 0 20px;
+        padding: 15px 0 0 0;
     }
 
     .btn-big {
@@ -155,6 +161,7 @@
     .banner-wrapper{
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     .nav-logo-wrapper {

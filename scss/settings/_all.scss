@@ -6,13 +6,18 @@ body {
     background-repeat: no-repeat;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 767px) {
     
     $column-base-width: 100% / $columns;
 
     .container {
         margin: 0 auto;
-        max-width: 98%;        
+        max-width: 92%;        
     }
 
     @for $i from 1 through $columns {
