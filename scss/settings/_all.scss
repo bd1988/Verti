@@ -9,6 +9,7 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 767px) {
@@ -34,7 +35,7 @@ body {
 
     $column-base-width: 100% / $columns;
     
-    header {
+    header, main {
         max-width: 98%;
         margin: 0 auto;
     }
