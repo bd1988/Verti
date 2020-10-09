@@ -35,7 +35,7 @@ body {
 
     $column-base-width: 100% / $columns;
     
-    header, main {
+    header, .features-wrapper {
         max-width: 98%;
         margin: 0 auto;
     }
