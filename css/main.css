@@ -267,7 +267,7 @@ body {
     margin: 0 auto;
   }
 }
-header {
+header, main {
   margin-bottom: 30px;
 }
 
@@ -762,6 +762,10 @@ header {
     line-height: 30px;
   }
 
+  .more-btn {
+    margin-left: 1rem;
+  }
+
   .wrapper-last {
     padding: 1rem 0 0 3rem;
   }
@@ -787,5 +791,81 @@ header {
   .wrapper-last > h2 {
     font-size: 2rem;
   }
+}
+footer > .container > .row > .col-12 {
+  padding: 20px 0 40px 7px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  color: #696969;
+}
+
+footer > .container > .row > .col-12 > h3 {
+  font-size: 1.2rem;
+  color: #444444;
+}
+
+footer > .container > .row > .col-12 > p {
+  font-size: 1.1rem;
+  color: #696969;
+  text-decoration: underline;
+}
+
+footer > .container > .row > .col-12:last-of-type {
+  text-align: center;
+}
+footer > .container > .row > .col-12:last-of-type p, footer > .container > .row > .col-12:last-of-type h3 {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+ul.social-media {
+  margin: 1rem 0;
+}
+
+ul.social-media > li {
+  transition: background-color 0.25s ease-in-out;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+  line-height: 1.5em;
+  border-radius: 0.35em;
+  outline: 0;
+  opacity: 0.75;
+  text-decoration: none;
+  background: #222222;
+  margin: 0.1rem;
+}
+
+ul.social-media > li:hover {
+  background: #696969;
+}
+
+.twitter:before {
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.facebook:before {
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.instagram:before {
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dribbble:before {
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.pinterest:before {
+  content: "";
+  font-family: "Font Awesome 5 Brands";
+  color: rgba(255, 255, 255, 0.6);
 }
 /*# sourceMappingURL=main.css.map */

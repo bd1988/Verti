@@ -174,7 +174,7 @@
         width: 100%;
         border-radius: 6px;
         font-size: 0;
-    }
+    }    
 
     .more-btn,
     .continue-reading {
@@ -183,7 +183,11 @@
         margin: 1rem 0 0 0;
         font-size: 18px; 
         line-height: 30px;        
-    }   
+    } 
+
+    .more-btn {
+        margin-left: 1rem;
+    }
     
     .wrapper-last {
         padding: 1rem 0 0 3rem;
